@@ -1,2 +1,0 @@
-Developpement de l'APPLI SRE CREIG
-DEPOT GITHUB
