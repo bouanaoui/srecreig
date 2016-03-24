@@ -1,4 +1,5 @@
 <?php
+//use a rrequire instead
 	/* 
 	session_start();
     if (! isset($_SESSION['id']))
