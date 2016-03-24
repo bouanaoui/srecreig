@@ -54,7 +54,10 @@ include('header.php');
 					<span>Export</span>
 				</button>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 			</FORM>
 		<div>
 		<!-- onClick ="$('#Entreprise_menu').tableExport({type:'excel',escape:'true',htmlContent:'false'});" -->
