@@ -3,7 +3,7 @@
   <head>
           <title>Ajout Entreprise</title>
           <meta charset="UTF-8">
-          <link rel="stylesheet" href="../css/style.css"> 
+          <link rel="stylesheet" href="style.css"> 
   </head>
 
 
@@ -18,44 +18,17 @@
 	
 	
       <h1> Fiche d'ajout d'une entreprise </h1>
-      <form action="#" method="post" class="form-horizontal" >
+      <form action="#" method="post" >
       <fieldset>
        <legend> Entreprise </legend>
 	  							
-			<div class="col-md-3">									  
-			
-	<label for="nom" class="col-md-3 control-label ">Nom : *</label>				
-<label for="groupe" class="col-md-3 control-label">Groupe : </label>
-<label for="codeNAF" class="col-md-3 control-label">Numéros d'identification : </label>
-
-              <label for="adresse">Adresse : </label>
-
-
-
-
-
-
-
-
-			</div>
-			<div class="col-md-2">								  
-              <input type="text" id="nom" name="nom" required="true" placeholder="Nom"/> <span class="require"></span><br/>
-			  <input type="text" id="groupe" name="groupe" placeholder="Groupe" /> <br/>
-              <input type="text" id="codeNAF" name="codeNAF" placeholder="Code NAF"/> 
+          <div id="gauche">
+              <label for="nom">Nom : </label><input type="text" id="nom" name="nom" required="true"/> <span class="require"> * </span><br/>
+              <label for="groupe">Groupe : </label><input type="text" id="groupe" name="groupe" /> <br/>
+              <label for="codeNAF">Numéros d'identification : </label><input type="text" id="codeNAF" name="codeNAF" placeholder="Code NAF"/> 
               <input type="text" id="libNAF" name="libNAF" placeholder="libelle NAF"/>
               <input type="text" id="siret" name="sirer" placeholder="N° SIRET"/><br/>
-              <input type="text" id="adresse" name="adresse" placeholder="Adresse "/><br/>
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			</div>
+              <label for="adresse">Adresse : </label><input type="text" id="adresse" name="adresse" /><br/>
               <label for="complAdr">Complement d'adresse:</label><input type="text" id="complAdr" name="complAdr" /><br/>
               <label for="codeP">Code postal : </label><input type="text" id="codeP" name= "codeP" pattern="[0-9]{5}"/><br/>
               <label for="ville">Ville :</label><input type="text" id="ville" name="ville" /><br/>
@@ -75,13 +48,13 @@
                       <option value="psm">Physique en Sciences des Matériaux</option>
                       <option value="tr">Télécomunications et Réseaux</option>
                     </select> <span class="require"> * </span> <br/>
-         
+          </div>
         
-    
+        <div id="droite">
           <textarea rows="17" cols="70" id="com" name="com">
             Votre commentaire ici...
           </textarea> <br/>
-     
+        </div>
       </fieldset>
 
       <fieldset class="fieldsetFloat">
