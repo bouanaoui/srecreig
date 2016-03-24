@@ -21,30 +21,96 @@
       <form action="#" method="post" class="form-horizontal" >
       <fieldset>
        <legend> Entreprise </legend>
-	  							
-			<div class="col-md-3">									  
-			
-	<label for="nom" class="col-md-3 control-label ">Nom : *</label>				
-<label for="groupe" class="col-md-3 control-label">Groupe : </label>
-<label for="codeNAF" class="col-md-3 control-label">Numéros d'identification : </label>
+	  			
 
-              <label for="adresse">Adresse : </label>
+<div class="panel panel-primary">
+									  <div class="panel-heading">
+										<h3 class="panel-title">Entreprise</h3>
+									  </div>
+									  <div class="panel-body">
+
+									 
+
+				
+<div class="col-md-8">	
+												  
+<div class="col-md-4">				
+	<label for="nom">Nom : *</label>	
+</div> 	
+<div class="col-md-2">			
+	<input type="text" id="nom" name="nom" required="true" placeholder="Nom"/> <span class="require"></span><br/>
+</div>
+<div class="col-md-10">	</div>
+
+
+
+<div class="col-md-4">				
+<label for="groupe">Groupe : </label>
+</div> 	
+<div class="col-md-2">			
+	<input type="text" id="groupe" name="groupe" placeholder="Groupe" /> <br/>
+</div>
+<div class="col-md-10">	</div>
+
+
+
+<div class="col-md-4">				
+	<label for="codeNAF" >Numéros d'identification : </label>
+</div> 	
+<div class="col-md-4">			
+	<input type="text" id="codeNAF" name="codeNAF" placeholder="Code NAF"/> 
+</div>
+<div class="col-md-4">	
+	<input type="text" id="libNAF" name="libNAF" placeholder="libelle NAF"/>
+</div>
+<div class="col-md-4">	
+	<input type="text" id="siret" name="sirer" placeholder="N° SIRET"/><br/>
+</div>
+<div class="col-md-10">	</div>
 
 
 
 
-
-
-
-
-			</div>
-			<div class="col-md-2">								  
-              <input type="text" id="nom" name="nom" required="true" placeholder="Nom"/> <span class="require"></span><br/>
-			  <input type="text" id="groupe" name="groupe" placeholder="Groupe" /> <br/>
-              <input type="text" id="codeNAF" name="codeNAF" placeholder="Code NAF"/> 
-              <input type="text" id="libNAF" name="libNAF" placeholder="libelle NAF"/>
-              <input type="text" id="siret" name="sirer" placeholder="N° SIRET"/><br/>
+<div class="col-md-4">				
+	<label for="adresse">Adresse : </label>
+</div> 	
+<div class="col-md-2">			
               <input type="text" id="adresse" name="adresse" placeholder="Adresse "/><br/>
+</div>
+<div class="col-md-10">	</div>
+
+
+
+<div class="col-md-4">				
+	<label for="complAdr">Complement d'adresse:</label>
+</div> 	
+<div class="col-md-2">			
+             <input type="text" id="complAdr" name="complAdr" /><br/>
+</div>
+<div class="col-md-10">	</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="col-md-3">	
+          <textarea rows="17" cols="50" id="com" name="com">
+            Votre commentaire ici...
+          </textarea> <br/>
+	</div>		
+										  
+
+
+
+
 
 				
 				
@@ -55,8 +121,8 @@
 				
 				
 				
-			</div>
-              <label for="complAdr">Complement d'adresse:</label><input type="text" id="complAdr" name="complAdr" /><br/>
+			
+
               <label for="codeP">Code postal : </label><input type="text" id="codeP" name= "codeP" pattern="[0-9]{5}"/><br/>
               <label for="ville">Ville :</label><input type="text" id="ville" name="ville" /><br/>
               <label for="pays">Pays :</label><input type="text" id="pays" name="pays" value="France"/><br/>
@@ -77,10 +143,8 @@
                     </select> <span class="require"> * </span> <br/>
          
         
-    
-          <textarea rows="17" cols="70" id="com" name="com">
-            Votre commentaire ici...
-          </textarea> <br/>
+  
+
      
       </fieldset>
 
@@ -208,14 +272,7 @@
 									  <div class="col-md-1">.col-md-1</div>
 									</div>
 									<div class="row">
-									  <div class="col-md-8">.col-md-8 <div class="panel panel-default">
-									  <div class="panel-heading">
-										<h3 class="panel-title">Panel title</h3>
-									  </div>
-									  <div class="panel-body">
-										Panel content
-									  </div>
-									</div></div>
+									  <div class="col-md-8">.col-md-8 
 									  <div class="col-md-4">.col-md-4</div>
 									</div>
 									<div class="row">
@@ -231,6 +288,7 @@
 									
 									
 			 </div> 	 <div class="col-md-2"> </div>						
-									
+			   </div>
+									</div></div>						
   </body>
 </html>
