@@ -54,9 +54,6 @@ include('header.php');
 					<span>Export</span>
 				</button>
 
-				<button class="button" id="disconnect" style="vertical-align:middle; margin-left: 20%;" onclick="self.location.href='deconnexion.php'">
-					<span>Deconnexion</span>
-				</button>
 			</FORM>
 		<div>
 		<!-- onClick ="$('#Entreprise_menu').tableExport({type:'excel',escape:'true',htmlContent:'false'});" -->
