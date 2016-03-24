@@ -68,6 +68,13 @@
                         <i class="fa fa-plus fa-fw"></i> 
                     </a>
                 </li>
+                
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="exporter_critere.php">
+                        <i class="fa fa-save fa-fw"></i> 
+                    </a>
+                </li>
    
                 
 
