@@ -1,14 +1,12 @@
 <?php
-//use a rrequire instead
-	/* 
-	session_start();
+    session_start();
     if (! isset($_SESSION['id']))
     {
         echo 'Session expirée, veuillez vous reconnecter !';
+        echo "Cliquez <a href=\"page.php\">ici</a>"; ?>
         exit();
     } 
 	header('Content-Type: text/html; charset=utf-8');
-	*/
 ?>
 
 
