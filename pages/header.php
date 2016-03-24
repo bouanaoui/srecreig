@@ -1,13 +1,14 @@
 <?php
-	/* 
+	
 	session_start();
     if (! isset($_SESSION['id']))
     {
         echo 'Session expirée, veuillez vous reconnecter !';
+		echo "<a href=\"index.php\"> Accueil </a>";
         exit();
     } 
 	header('Content-Type: text/html; charset=utf-8');
-	*/
+
 ?>
 
 
@@ -70,8 +71,16 @@
                     </a>
                 </li>
    
-                
+   
+   
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="export_critere.php">
+                        <i class="fa fa-save fa-fw"></i> 
+                    </a>
+                </li>
 
+				
+				
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="agenda.php">
                         <i class="fa fa-calendar fa-fw"></i> 

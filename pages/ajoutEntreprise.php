@@ -20,49 +20,113 @@
       <h1> Fiche d'ajout d'une entreprise </h1>
       <form action="#" method="post" class="form-horizontal" >
       <fieldset>
-       <legend> Entreprise </legend>
-	  							
-			<div class="col-md-3">									  
-			
-	<label for="nom" class="col-md-3 control-label ">Nom : *</label>				
-<label for="groupe" class="col-md-3 control-label">Groupe : </label>
-<label for="codeNAF" class="col-md-3 control-label">Numéros d'identification : </label>
-
-              <label for="adresse">Adresse : </label>
+	  				
 
 
+      <h1>   </h1>
 
+													
+									
+									  <div class="panel panel-primary">
+									  <div class="panel-heading">
+										<h2 class="panel-title">Entreprise</h3>
+									  </div>
+<div class="panel-body">
+				<div class="col-md-7">	
+								
+		<div class="col-md-4">	
+			<label for="nom">Nom : *</label><div class="col-md-11"></div>				
+		</div>		
+		<div class="col-md-2"> 	  
+			<input type="text" id="nom" name="nom" required="true" placeholder="Nom"/> <span class="require"></span><br/> 
+		</div>
+				<div class="col-md-10"></div>	
 
-
-
-
-
-			</div>
-			<div class="col-md-2">								  
-              <input type="text" id="nom" name="nom" required="true" placeholder="Nom"/> <span class="require"></span><br/>
+<div class="col-md-4">	
+	<label for="groupe" >Groupe : </label>
+		</div>		
+		<div class="col-md-2"> 	  
 			  <input type="text" id="groupe" name="groupe" placeholder="Groupe" /> <br/>
+		</div>
+		<div class="col-md-10"></div>
+				
+				<div class="col-md-4">	
+<label for="codeNAF" >Numéros d'identification : </label>
+		</div>		
+		<div class="col-md-4"> 	  
               <input type="text" id="codeNAF" name="codeNAF" placeholder="Code NAF"/> 
-              <input type="text" id="libNAF" name="libNAF" placeholder="libelle NAF"/>
-              <input type="text" id="siret" name="sirer" placeholder="N° SIRET"/><br/>
-              <input type="text" id="adresse" name="adresse" placeholder="Adresse "/><br/>
+			  	</div>
 
+          		<div class="col-md-4"> 	  
+    <input type="text" id="siret" name="sirer" placeholder="N° SIRET"/><br/>
+		</div>
+		
+ 
 				
-				
-				
-				
-				
-				
-				
-				
-				
-			</div>
-              <label for="complAdr">Complement d'adresse:</label><input type="text" id="complAdr" name="complAdr" /><br/>
-              <label for="codeP">Code postal : </label><input type="text" id="codeP" name= "codeP" pattern="[0-9]{5}"/><br/>
-              <label for="ville">Ville :</label><input type="text" id="ville" name="ville" /><br/>
-              <label for="pays">Pays :</label><input type="text" id="pays" name="pays" value="France"/><br/>
-             
-              <label for="formations"> Formations : </label>
-                    <select name="formations" id="formations" type="select" multiple size="4">
+		<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+              <label for="adresse">Adresse : </label>
+		</div>		
+		<div class="col-md-2"> 	  
+              <input type="text" id="adresse" name="adresse" placeholder="Adresse "/><br/>
+		</div>
+		
+		
+		<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+      <label for="complAdr">Complement d'adresse:</label>		</div>		
+		<div class="col-md-2"> 	  
+        <input type="text" id="complAdr" name="complAdr" /><br/>
+		</div>
+		<div class="col-md-10"></div>	
+
+		<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+              <label for="codeP">Code postal : </label></div>	
+		<div class="col-md-2"> 	  
+<input type="text" id="codeP" name= "codeP" pattern="[0-9]{5}"/><br/>
+		</div>
+		<div class="col-md-10"></div>	
+
+				<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+      <label for="complAdr">Complement d'adresse:</label>		</div>		
+		<div class="col-md-2"> 	  
+        <input type="text" id="complAdr" name="complAdr" /><br/>
+		</div>
+		<div class="col-md-10"></div>	
+
+				<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+              <label for="ville">Ville :</label>	</div>		<div class="col-md-2"> 	  
+<input type="text" id="ville" name="ville" /><br/>
+		</div>
+		<div class="col-md-10"></div>	
+
+				<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+            <label for="pays">Pays :</label>
+			</div>		
+		<div class="col-md-2"> 	  
+        <input type="text" id="pays" name="pays" value="France"/><br/>
+		</div>
+		<div class="col-md-10"></div>	
+
+				<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+      <label for="complAdr">Complement d'adresse:</label>		</div>		
+		<div class="col-md-2"> 	  
+        <input type="text" id="complAdr" name="complAdr" /><br/>
+		</div>
+		<div class="col-md-10"></div>	
+
+				<div class="col-md-10"></div>	
+		<div class="col-md-4">	
+              <label for="formations"> Formations : *</label>
+                   </div>	
+         
+		<div class="col-md-2"> 	  
+ <select name="formations" id="formations" type="select" multiple size="4">
                       <option value="tout">Tout</option>
                       <option value="air">AIR</option>
                       <option value="enera">ENERA</option>
@@ -74,24 +138,55 @@
                       <option value="maths">Mathématiques</option>
                       <option value="psm">Physique en Sciences des Matériaux</option>
                       <option value="tr">Télécomunications et Réseaux</option>
-                    </select> <span class="require"> * </span> <br/>
-         
-        
-    
-          <textarea rows="17" cols="70" id="com" name="com">
-            Votre commentaire ici...
-          </textarea> <br/>
-     
-      </fieldset>
+                    </select> <span class="require">  </span> <br/>		</div>
+		<div class="col-md-10"></div>	
 
-      <fieldset class="fieldsetFloat">
-       <legend> Contact Principal </legend>
-          <label for="civiliteCP">Civilite :</label><input type="radio" name="civiliteCP" />Monsieur <input type="radio" name="civiliteCP" />Madame <span class="require"> * </span><br />
+				
+				
+				
+				
+				</div>
+		<div class="col-md-5">	  <textarea rows="17" cols="60" id="com" name="com">
+            Votre commentaire ici...
+          </textarea> <br/></div>
+		<div class="col-md-2"></div>	
+
+		
+						
+		
+
+
+						
+										
+									  </div>
+									</div>
+													
+			
+
+             
+        
+    						
+									  <div class="panel panel-primary">
+									  <div class="panel-heading">
+										<h2 class="panel-title">Contact Principal</h3>
+									  </div>
+<div class="panel-body">
+
+                  <label for="civiliteCP">Civilite :</label><input type="radio" name="civiliteCP" />Monsieur <input type="radio" name="civiliteCP" />Madame <span class="require"> * </span><br />
           <label for="nomCP">Nom : </label><input type="text" id ="nomCP" name="nomCP" required="true"/> <span class="require"> * </span><br/>
           <label for="prenomCP">Prenom : </label><input type="text" id ="prenomCP" name="prenomCP" /><br/>
           <label for="fonctionCP">Fonction : </label><input type="text" id="fonctionCP" name="fonctionCP" required="true"/><span class="require"> * </span><br/>
           <label for="telCP">Numéro de téléphone : </label><input type="tel" id="telCP" pattern="[0-9]{10}" name="telCP"/><br/>
           <label for="email">Email : </label><input type="email" id="email" name="email" /><br/>
+
+     			  </div>
+									</div>
+											
+			
+
+      </fieldset>
+
+      <fieldset class="fieldsetFloat">
 
       </fieldset>
 
@@ -149,7 +244,7 @@
        <input type="submit" value="Envoyer" />
        <input type="reset" value="Annuler" />
        </p>
-
+	
       </form>
 	  
 	  
@@ -181,9 +276,6 @@
 
 									</form>
 
-									<div class="panel panel-primary">...</div>
-									<div class="panel panel-success">...</div>
-									<div class="panel panel-info">...</div>
 									<div class="panel panel-warning">...</div>
 									<div class="panel panel-danger">...</div>
 
@@ -208,14 +300,9 @@
 									  <div class="col-md-1">.col-md-1</div>
 									</div>
 									<div class="row">
-									  <div class="col-md-8">.col-md-8 <div class="panel panel-default">
-									  <div class="panel-heading">
-										<h3 class="panel-title">Panel title</h3>
-									  </div>
-									  <div class="panel-body">
-										Panel content
-									  </div>
-									</div></div>
+									  <div class="col-md-8">.col-md-8 
+									  
+
 									  <div class="col-md-4">.col-md-4</div>
 									</div>
 									<div class="row">
@@ -231,6 +318,6 @@
 									
 									
 			 </div> 	 <div class="col-md-2"> </div>						
-									
+			</div>							
   </body>
 </html>
