@@ -12,57 +12,126 @@
   
   
 	<?php include('header.php');  ?>
+<<<<<<< HEAD
+=======
+	<div class="row" id="content">
+>>>>>>> origin/master
 	<div class="col-md-2"> 	  </div>			 
 	<div class="col-md-8">   
 	
 	
-	
-      <h1> Fiche d'ajout d'une entreprise </h1>
-      <form action="#" method="post" class="form-horizontal" >
+
+      <h1 class="text-center"> Fiche d'ajout d'une entreprise </h1></br>
+      <form action="#" method="post" class="form-vertical" >
       <fieldset>
-       <legend> Entreprise </legend>
-	  							
-			<div class="col-md-3">									  
-			
-	<label for="nom" class="col-md-3 control-label ">Nom : *</label>				
-<label for="groupe" class="col-md-3 control-label">Groupe : </label>
-<label for="codeNAF" class="col-md-3 control-label">Numéros d'identification : </label>
+	  			
 
-              <label for="adresse">Adresse : </label>
+<div class="panel panel-primary">
+									  <div class="panel-heading">
+										<h3 class="panel-title">Entreprise</h3>
+									  </div>
+									  <div class="panel-body">
+
+									 
+
+				
+<div class="col-md-8">	
+												  
+<div class="col-md-4">				
+									<div class="input-group">
+									  <span class="input-group-addon" id="sizing-addon1">Nom</span>
+									  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+									</div>
+</div> 	
+<div class="col-md-2">			
+	<input type="text" id="nom" name="nom" required="true" placeholder="Nom"/> <span class="require"></span><br/>
+</div>
+<div class="col-md-10">	</div>
 
 
 
+<div class="col-md-4">				
+<label for="groupe">Groupe : </label>
+</div> 	
+<div class="col-md-2">			
+	<input type="text" id="groupe" name="groupe" placeholder="Groupe" /> <br/>
+</div>
+<div class="col-md-10">	</div>
 
 
 
+<div class="col-md-4">				
+	<label for="codeNAF" >Code NAF : </label>
+</div> 	
+<div class="col-md-4">			
+	<input type="text" id="codeNAF" name="codeNAF" placeholder="Code NAF"/> 
+</div>
+<div class="col-md-4">	
+	<input type="text" disabled="disabled" id="libNAF" name="libNAF" placeholder="- > Libellé NAF"/>
+</div>
+
+<div class="col-md-10">	</div>
 
 
-			</div>
-			<div class="col-md-2">								  
-              <input type="text" id="nom" name="nom" required="true" placeholder="Nom"/> <span class="require"></span><br/>
-			  <input type="text" id="groupe" name="groupe" placeholder="Groupe" /> <br/>
-              <input type="text" id="codeNAF" name="codeNAF" placeholder="Code NAF"/> 
-              <input type="text" id="libNAF" name="libNAF" placeholder="libelle NAF"/>
-              <input type="text" id="siret" name="sirer" placeholder="N° SIRET"/><br/>
+<div class="col-md-4">				
+<label for="siret">N° SIRET : </label>
+</div> 	
+<div class="col-md-2">			
+	<input type="text" id="siret" name="sirer" placeholder="N° SIRET"/><br/>
+</div>
+<div class="col-md-10">	</div>
+
+
+
+<div class="col-md-4">				
+	<label for="adresse">Adresse : </label>
+</div> 	
+<div class="col-md-2">			
               <input type="text" id="adresse" name="adresse" placeholder="Adresse "/><br/>
+</div>
+<div class="col-md-10">	</div>
 
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			</div>
-              <label for="complAdr">Complement d'adresse:</label><input type="text" id="complAdr" name="complAdr" /><br/>
-              <label for="codeP">Code postal : </label><input type="text" id="codeP" name= "codeP" pattern="[0-9]{5}"/><br/>
-              <label for="ville">Ville :</label><input type="text" id="ville" name="ville" /><br/>
-              <label for="pays">Pays :</label><input type="text" id="pays" name="pays" value="France"/><br/>
-             
-              <label for="formations"> Formations : </label>
-                    <select name="formations" id="formations" type="select" multiple size="4">
+
+
+<div class="col-md-4">				
+	<label for="complAdr">Complement d'adresse:</label>
+</div> 	
+<div class="col-md-2">			
+             <input type="text" id="complAdr" name="complAdr" /><br/>
+</div>
+<div class="col-md-10">	</div>
+
+
+<div class="col-md-4">				
+ <label for="codeP">Code postal : </label>
+</div> 	
+<div class="col-md-2">			
+             <input type="text" id="codeP" name= "codeP" pattern="[0-9]{5}"/><br/>
+</div>
+<div class="col-md-10">	</div>
+
+<div class="col-md-4">				
+<label for="ville">Ville :</label>
+</div> 	
+<div class="col-md-2">			
+              <input type="text" id="ville" name="ville" /><br/>
+</div>
+<div class="col-md-10">	</div>
+
+<div class="col-md-4">				
+ <label for="pays">Pays :</label>
+</div> 	
+<div class="col-md-2">			
+             <input type="text" id="pays" name="pays" value="France"/><br/>
+</div>
+<div class="col-md-10">	</div>
+
+
+<div class="col-md-4">				
+  <label for="formations"> Formations : </label>
+</div> 	
+<div class="col-md-2">			
+   <select name="formations" id="formations" type="select" multiple size="4">
                       <option value="tout">Tout</option>
                       <option value="air">AIR</option>
                       <option value="enera">ENERA</option>
@@ -75,15 +144,57 @@
                       <option value="psm">Physique en Sciences des Matériaux</option>
                       <option value="tr">Télécomunications et Réseaux</option>
                     </select> <span class="require"> * </span> <br/>
-         
-        
-    
-          <textarea rows="17" cols="70" id="com" name="com">
+         </div>
+<div class="col-md-10">	</div>
+
+
+</div>
+
+<div class="col-md-3">	
+          <textarea class="input-lg" id="com" name="com">
             Votre commentaire ici...
           </textarea> <br/>
+	</div>		
+										  
+
+
+
+
+
+				
+				<div class="col-md-12">	</div>			
+
+				
+				<div class="col-md-4">				
+<label class="row" for="groupe">Groupe : </label>
+ <label  class="row" for="codeP">Code postal : </label>
+<label class="row" for="groupe">Groupe : </label>
+
+</div> 	
+<div class="col-md-2">			
+	<input type="text" id="groupe" name="groupe" placeholder="Groupe" /> <br/>
+</div>
+<div class="col-md-10">	</div>			
+				
+				
+				
+				
+	
+             
+            
+     
+
      
       </fieldset>
 
+				
+
+
+  
+	  
+	  <div class="col-md-4">	
+
+	
       <fieldset class="fieldsetFloat">
        <legend> Contact Principal </legend>
           <label for="civiliteCP">Civilite :</label><input type="radio" name="civiliteCP" />Monsieur <input type="radio" name="civiliteCP" />Madame <span class="require"> * </span><br />
@@ -94,6 +205,10 @@
           <label for="email">Email : </label><input type="email" id="email" name="email" /><br/>
 
       </fieldset>
+	</div>
+	  
+	  	  <div class="col-md-4">	
+
 
      <fieldset class="fieldsetFloat">
       <legend> Contact Secondaire </legend>
@@ -104,6 +219,11 @@
           <label for="telCS">Numéro de téléphone : </label><input type="tel" id="telCS" pattern="[0-9]{10}" name="telCS"/><br/>
           <label for="email">Email : </label><input type="email" id="email" name="email" /><br/>
       </fieldset>
+	</div>
+	  
+	  
+	  	  <div class="col-md-4">	
+
 
      <fieldset >
       <legend> Contact TA-LR </legend>
@@ -114,6 +234,8 @@
           <label for="telTA">Numéro de téléphone : </label><input type="tel" id="telTA" pattern="[0-9]{10}" name="telTA"/><br/>
           <label for="email">Email : </label><input type="email" id="email" name="email" /><br/>
       </fieldset>
+</div>
+	  	  <div class="col-md-4">	
 
      <fieldset>
         <legend> Origine et type </legend>
@@ -152,7 +274,8 @@
 
       </form>
 	  
-	  
+	 
+
 	
 	  
 	  
@@ -208,14 +331,7 @@
 									  <div class="col-md-1">.col-md-1</div>
 									</div>
 									<div class="row">
-									  <div class="col-md-8">.col-md-8 <div class="panel panel-default">
-									  <div class="panel-heading">
-										<h3 class="panel-title">Panel title</h3>
-									  </div>
-									  <div class="panel-body">
-										Panel content
-									  </div>
-									</div></div>
+									  <div class="col-md-8">.col-md-8 
 									  <div class="col-md-4">.col-md-4</div>
 									</div>
 									<div class="row">
@@ -231,6 +347,7 @@
 									
 									
 			 </div> 	 <div class="col-md-2"> </div>						
-									
+			   </div></div>
+									</div></div> </div>						
   </body>
 </html>

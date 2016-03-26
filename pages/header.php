@@ -1,14 +1,12 @@
 <?php
-//use a rrequire instead
-	/* 
-	session_start();
+    session_start();
     if (! isset($_SESSION['id']))
     {
         echo 'Session expirée, veuillez vous reconnecter !';
+        echo "Cliquez <a href=\"page.php\">ici</a>"; 
         exit();
     } 
 	header('Content-Type: text/html; charset=utf-8');
-	*/
 ?>
 
 
@@ -68,6 +66,13 @@
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="ajoutEntreprise.php">
                         <i class="fa fa-plus fa-fw"></i> 
+                    </a>
+                </li>
+                
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="exporter_critere.php">
+                        <i class="fa fa-save fa-fw"></i> 
                     </a>
                 </li>
    
