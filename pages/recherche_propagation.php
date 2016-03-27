@@ -53,7 +53,6 @@ include('header.php');
 			    <button class="button" id="export" style="vertical-align:middle;margin-left: 8%;">
 					<span>Export</span>
 				</button>
-
 			</FORM>
 		<div>
 		<!-- onClick ="$('#Entreprise_menu').tableExport({type:'excel',escape:'true',htmlContent:'false'});" -->
